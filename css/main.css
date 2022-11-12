@@ -1,0 +1,47 @@
+.body{
+    width: 900px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    /* background-color: brown; */
+    width: 900px;
+    height: 300px;
+}
+
+.character{
+    width: 300px;
+    position: relative;
+}
+
+.introduce{
+    width: 600px;
+    color:darkgoldenrod;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: darkcyan;
+    width: 290px;
+    height: 290px;
+    margin: 5px;
+    position: relative;
+}
+
+img {  
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
