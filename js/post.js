@@ -30,9 +30,10 @@ const itemImage4 = '<img src="./images/a9a6aa931b7d14263c3119287c1313523463326b.
 const itemImage5 = '<img src="./images/ecdc5527d67488c92c242e34458844fe2afac525.png">';
 const itemImage6 = '<img src="./images/fd3052b825dd7dc2d4f78043ecd94b57f9cad36a.png">';
 
-item1.innerHTML = itemImage1;
-item2.innerHTML = itemImage2;
-item3.innerHTML = itemImage3;
-item4.innerHTML = itemImage4;
-item5.innerHTML = itemImage5;
-item6.innerHTML = itemImage6;
+const imageData = [itemImage1, itemImage2, itemImage3, itemImage4, itemImage5, itemImage6]
+
+itemData.forEach(function (item, index) {
+    item.innerHTML = imageData[index]
+})
+
+
